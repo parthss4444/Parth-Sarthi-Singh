@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+class test2{
+    public static void main(String[] args){
+        Scanner Sc=new Scanner(System.in);
+        System.out.println("enter the length of rectangle");
+        int l=Sc.nextInt();
+        System.out.println("enter the breath of rectangle");
+        int b=Sc.nextInt();
+        int area =l*b;
+        System.out.println(area);
+        }
+    }
